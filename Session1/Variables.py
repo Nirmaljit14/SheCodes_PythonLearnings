@@ -24,7 +24,6 @@ print (f"The sum of num1 and num2 is = {float(num1) * float(num2)}")
 username = str(input("What is your name?"))
 userHeight = float(input("How tall are you?"))
 height_cms = userHeight * 30.48
-
 print (f" The {username} is {height_cms}cms tall")
 
 
