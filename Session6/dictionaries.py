@@ -33,7 +33,7 @@ import csv
 # del studemt_phonebook["Nj"]
 # print(studemt_phonebook)
 
-# Q1The dictionary below represents the cost of individual items in a supermarket. 
+# Q1 The dictionary below represents the cost of individual items in a supermarket. 
 # Write aprogram that asks the user how many of each item they would like in turn, 
 # and outputsthe total cost of their groceries.
 unit_total = 0
@@ -47,10 +47,8 @@ groceries = {
 
 for key, value in groceries.items():
     numbers = int(input(f"pleae input the number of items you want{key}"))
-    print(numbers)
-    total = numbers * value
-    unit_total += total
-print(unit_total) 
+    unit_total = unit_total + numbers * value
+print("Pay Now", unit_total)
 
 # Q2 In the last lesson, you wrote a program that counted the number of colour names inthe colours_865.csv file.
 # Try rewriting this program so that instead of using separate variables to keep track ofthe number of times each colour name appears,

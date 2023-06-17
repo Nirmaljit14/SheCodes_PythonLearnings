@@ -37,7 +37,6 @@
 def get_integer(prompt):
     print(f"your integer is {prompt}? Thanks!")
     return prompt
-
 user_input = input("Please enter an integer")
 result = get_integer(user_input)
 
@@ -52,6 +51,7 @@ def celcius_convert(temp_f):
 user_input = float(input("Please emter the temprature "))
 results = celcius_convert(user_input)
 print(results)
+
 
 
 # Q3Write a function that accepts one argument (an integer) and returns True when that 
