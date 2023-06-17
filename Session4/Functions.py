@@ -32,7 +32,7 @@
 
 # Q1 Write a function called get_integer that takes a string as its argument, 
 # and uses thatstring to prompt the user to enter an integer. 
-# Your function should return the integersupplied by the user
+# Your function should return the integer supplied by the user
 
 def get_integer(prompt):
     print(f"your integer is {prompt}? Thanks!")
